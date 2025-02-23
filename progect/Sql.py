@@ -3,6 +3,7 @@ import mysql.connector
 import json
 import Animal
 
+
 class MySQLDatabase:
     def __init__(self, db_name, user, password, host="localhost"):
         self.db_name = db_name
@@ -162,7 +163,6 @@ if __name__ == '__main__':
     # Вставляем данные в базу данных
     db.insert_animal(dog)
     db.insert_animal(cat)
-
 
     # Закрываем подключение с базой данных
     db.close()

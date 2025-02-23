@@ -41,7 +41,6 @@ class Animal(ABC):
         return self.__name
 
 
-
 class HomeAnimal(Animal):
     def __init__(self, name: str, b_date: date):
         super().__init__(name, b_date)
@@ -66,8 +65,6 @@ class Cat(HomeAnimal):
     def __init__(self, name: str, b_date: date):
         super().__init__(name, b_date)
         self._commands['Мяукать'] = 'мило мяукает!'
-
-
 
 
 class Hamster(HomeAnimal):

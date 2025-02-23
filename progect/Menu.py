@@ -4,6 +4,7 @@ import Animal
 import Sql
 from Counter import Counter
 
+
 class Menu:
 
     def __init__(self, db: Sql.MySQLDatabase):
@@ -118,9 +119,11 @@ class Menu:
                 self.add_command()
             elif choice == "6":
                 print("Выход из программы.")
+                db.close()
                 sys.exit()
             else:
                 print("Неверный выбор! Попробуйте снова.")
+
 
 if __name__ == '__main__':
     db = Sql.MySQLDatabase(db_name="animal_shelter", user="root", password="260989")
