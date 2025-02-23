@@ -89,6 +89,19 @@ class Menu:
         except ValueError:
             print("Неверный ввод! Введите корректный ID.")
 
+    def add_command(self):
+        print("\nВыберите животное для взаимодействия:")
+        self.db.fetch_all_animals_info()
+        try:
+            animal_id = int(input("\nВведите ID животного для взаимодействия: "))
+            animal = self.db.fetch_animal_by_id(animal_id)
+            if animal:
+                command = input("ВВедите название команды:")
+                action = input('Введите результат команды:')
+                animal.add_command(command, action)
+                self.db.update_commands(animal, animal_id)
+        except ValueError:
+            print("Неверный ввод! Введите корректный ID.")
 
     def start(self):
         while True:
@@ -102,7 +115,7 @@ class Menu:
             elif choice == "4":
                 self.interact_with_animal()
             elif choice == "5":
-                self.work_with_counter()
+                self.add_command()
             elif choice == "6":
                 print("Выход из программы.")
                 sys.exit()

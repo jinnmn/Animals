@@ -41,6 +41,26 @@ class MySQLDatabase:
         """
         self.cursor.execute(create_table_query)
 
+    def update_commands(self, animal, animal_id):
+        """Заменяет список команд для животного в базе данных."""
+
+        new_commands = animal.commands_()
+        commands_json = json.dumps(new_commands)
+        # Запрос для обновления списка команд в таблице
+        update_query = """
+        UPDATE animals
+        SET commands = %s
+        WHERE id = %s
+        """
+
+        try:
+            # Выполняем обновление
+            self.cursor.execute(update_query, (commands_json, animal_id))
+            self.connection.commit()
+            print(f"Команды для животного с ID {animal_id} успешно обновлены.")
+        except mysql.connector.Error as err:
+            print(f"Ошибка при обновлении команд: {err}")
+
     def check_animal_exists(self, animal):
         """Проверяем, существует ли животное с таким же именем и датой рождения."""
         query = """

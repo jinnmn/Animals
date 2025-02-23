@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e674149-ace4-44e5-8de3-b92d56d93953" name="Changes" comment=" 2nd">
-      <change afterPath="$PROJECT_DIR$/progect/Counter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progect/Menu.py" afterDir="false" />
+    <list default="true" id="0e674149-ace4-44e5-8de3-b92d56d93953" name="Changes" comment="Worked">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progect/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/progect/Menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progect/Sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/progect/Sql.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,8 +135,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Menu" />
-        <item itemvalue="Python.Counter" />
         <item itemvalue="Python.Sql" />
+        <item itemvalue="Python.Counter" />
         <item itemvalue="Python.Animal" />
       </list>
     </recent_temporary>
@@ -181,12 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1740347279132</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Worked">
+      <option name="closed" value="true" />
+      <created>1740350017377</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740350017377</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" 1st" />
     <MESSAGE value=" 2nd" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 2nd" />
+    <MESSAGE value="Worked" />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked" />
   </component>
 </project>
