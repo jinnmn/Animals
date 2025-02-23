@@ -123,8 +123,7 @@ class Menu:
                 print("Неверный выбор! Попробуйте снова.")
 
 if __name__ == '__main__':
-    # Пример использования базы данных
     db = Sql.MySQLDatabase(db_name="animal_shelter", user="root", password="260989")
-    db.create_table()  # Создаем таблицу, если её нет
+    db.create_table()
     menu = Menu(db)
     menu.start()
