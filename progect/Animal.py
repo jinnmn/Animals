@@ -24,8 +24,13 @@ class Animal(ABC):
     def add_command(self, key, value):
         if key not in self._commands:
             self._commands[key] = value
-        else:
-            print('Уже умеет!')
+
+    def get_birth_date(self):
+        return self.__b_date
+
+    def get_name(self):
+        return self.__name
+
 
 
 class HomeAnimal(Animal):
@@ -52,6 +57,8 @@ class Cat(HomeAnimal):
     def __init__(self, name: str, b_date: date):
         super().__init__(name, b_date)
         self._commands['Мяукать'] = 'мило мяукает!'
+
+
 
 
 class Hamster(HomeAnimal):
