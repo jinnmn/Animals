@@ -9,7 +9,16 @@ class Animal(ABC):
         self.__b_date = b_date
 
     def __str__(self):
-        return f'Животное типа {self.__class__.__name__} по кличке {self.__name}'
+        return f'Животное типа {self.__class__.__name__} {self.get_age()} лет по кличке {self.__name}'
+
+    def get_age(self):
+        """Вычисляем возраст животного."""
+        today = date.today()
+        age = today.year - self.__b_date.year
+        # Если день рождения еще не наступил в текущем году, уменьшаем возраст на 1
+        if today.month < self.__b_date.month or (today.month == self.__b_date.month and today.day < self.__b_date.day):
+            age -= 1
+        return age
 
     def do_act(self, action):
         print(f'{self.__name} {self._commands[action]}')
