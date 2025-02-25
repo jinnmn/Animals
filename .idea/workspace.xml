@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e674149-ace4-44e5-8de3-b92d56d93953" name="Changes" comment="Add command">
-      <change afterPath="$PROJECT_DIR$/control" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/install.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema.sql" afterDir="false" />
+    <list default="true" id="0e674149-ace4-44e5-8de3-b92d56d93953" name="Changes" comment="deb files 1">
+      <change afterPath="$PROJECT_DIR$/progect/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progect/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/progect/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/install.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/progect/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/progect/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +54,17 @@
     "Python.Counter.executor": "Run",
     "Python.Menu.executor": "Run",
     "Python.Sql.executor": "Run",
+    "Python.main (1).executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Snegovik\PycharmProjects\Animals\progect" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="Animal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Animals" />
       <option name="ENV_FILES" value="" />
@@ -124,6 +131,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Animals" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/progect" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/progect/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Animals" />
       <option name="ENV_FILES" value="" />
@@ -148,6 +177,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.Sql" />
         <item itemvalue="Python.Counter" />
@@ -227,7 +257,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740354613107</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="deb files 1">
+      <option name="closed" value="true" />
+      <created>1740403241434</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740403241434</updated>
+    </task>
+    <task id="LOCAL-00009" summary="deb files 1">
+      <option name="closed" value="true" />
+      <created>1740403248032</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740403248032</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -235,6 +281,7 @@
     <MESSAGE value=" 2nd" />
     <MESSAGE value="Worked" />
     <MESSAGE value="Add command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add command" />
+    <MESSAGE value="deb files 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="deb files 1" />
   </component>
 </project>

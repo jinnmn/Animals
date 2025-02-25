@@ -99,7 +99,8 @@ class Menu:
             if animal:
                 command = input("ВВедите название команды:")
                 action = input('Введите результат команды:')
-                animal.add_command(command, action)
+                animal.add_command(
+                    command, action)
                 self.db.update_commands(animal, animal_id)
         except ValueError:
             print("Неверный ввод! Введите корректный ID.")
@@ -119,7 +120,7 @@ class Menu:
                 self.add_command()
             elif choice == "6":
                 print("Выход из программы.")
-                db.close()
+                db.close()                      # Закрываем БД
                 sys.exit()
             else:
                 print("Неверный выбор! Попробуйте снова.")
